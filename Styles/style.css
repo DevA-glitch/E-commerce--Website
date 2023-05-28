@@ -221,7 +221,7 @@ body {
 
 .pro-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 20px;
     flex-wrap: wrap;   
 }
@@ -634,3 +634,46 @@ body {
     }
 
 } 
+
+.footer_address {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+
+.keep-shopping {
+    text-align: center;
+}
+
+.keep-shopping h4 {
+    font-size: 1.4rem;
+    color: rgb(147, 147, 255);
+}
+
+.keep-shopping .keep-shopping-split {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    font-size: 23px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.footer_company {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
